@@ -14,7 +14,8 @@ export default function App() {
     // }
     return (
       <img 
-        onClick={handleClick}
+        // onClick={handleClick}
+        onClick={() => handleClick()}
         className="thumb" 
         style={{border: bigImg === image.url ? '4px solid green' : ''}}
         src={image.url}
